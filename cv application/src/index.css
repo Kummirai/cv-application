@@ -4,4 +4,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #0f1c30;
+  --secondary-color: #faf8f8;
+  --tertiary-color: #273036;
+  --quaternary-color: #c2c6ce;
+  --quinary-color: #b27409;
 }
