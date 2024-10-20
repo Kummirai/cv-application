@@ -27,9 +27,8 @@
 
 .name-section input{
   border: 1px solid #aec4da;
-  border-radius: 4px;
-  background-color: #f9f9f9;
-  color: #333;
+  border-radius: 4px; 
+  color: var(--tertiary-color);
   font-size: 0.80rem;
   font-weight: 200;
   margin: 4px 0;
