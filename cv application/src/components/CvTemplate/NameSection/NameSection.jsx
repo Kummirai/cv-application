@@ -1,6 +1,14 @@
 import "./nameSection.css";
+import { useState } from "react";
 
 const NameSection = () => {
+  const [name, setName] = useState("");
+
+  const onChange = (change) => {
+    setName(change.target.value);
+    console.log(name);
+  };
+
   return (
     <div className="name-section">
       <form id="myForm">
@@ -10,7 +18,14 @@ const NameSection = () => {
         <fieldset className="name-info">
           <div>
             <label htmlFor="name">Fisrt Name</label>
-            <input type="text" id="name" name="name" placeholder="First Name" />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="First Name"
+              value={name}
+              onChange={onChange}
+            />
           </div>
           <div>
             <label htmlFor="lastame">Last Name</label>
@@ -43,7 +58,7 @@ const NameSection = () => {
             />
           </div>
         </fieldset>
-        <input type="submit" value="Submit" className="btn"/>
+        <input type="submit" value="Submit" className="btn" />
       </form>
     </div>
   );
