@@ -1,5 +1,10 @@
-.cvTemplate{
+.cvTemplate {
   grid-column: 1 / 4;
-  grid-row: 2 / -1  ;
+  grid-row: 2 / -1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: var(secondry-color);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  margin: 0 20px;
 }

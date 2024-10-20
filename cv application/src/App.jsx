@@ -1,11 +1,11 @@
 import Header from "./components/header/Header";
-import NameSection from "./components/CvTemplate/NameSection/NameSection";
+import CvTemplate from "./components/cvTemplate/CvTemplate";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <NameSection />
+      <CvTemplate />
     </div>
   );
 }
