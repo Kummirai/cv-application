@@ -1,0 +1,8 @@
+.your-cv{
+  grid-column: 4 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  padding: 10px;
+}

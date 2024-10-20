@@ -1,0 +1,23 @@
+.cv-header{
+  color: var(--secondary-color);
+  padding: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+
+.cv-header h1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.cv-header h2{
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
