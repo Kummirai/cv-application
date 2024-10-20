@@ -9,8 +9,6 @@ const NameSection = () => {
     console.log(name);
   };
 
-  
-
   return (
     <div className="name-section">
       <form id="myForm">
