@@ -5,7 +5,7 @@ const NameSection = () => {
     <div className="name-section">
       <form>
         <legend>
-          <h2>Name Section</h2>
+          <h2 className="sub-heading">Name Section</h2>
         </legend>
         <fieldset className="name-info">
           <div>
