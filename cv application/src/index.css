@@ -11,3 +11,9 @@
   --quaternary-color: #c2c6ce;
   --quinary-color: #b27409;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

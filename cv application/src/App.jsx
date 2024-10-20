@@ -1,7 +1,11 @@
+import Header from "./components/header/Header";
+
 function App() {
-  return <>
-    <h1>CV Application</h1>
-  </>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
