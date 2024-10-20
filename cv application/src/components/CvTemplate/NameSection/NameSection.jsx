@@ -4,10 +4,12 @@ import { useState } from "react";
 const NameSection = () => {
   const [name, setName] = useState("");
 
-  const onChange = (change) => {
+  const applicantName = (change) => {
     setName(change.target.value);
     console.log(name);
   };
+
+  
 
   return (
     <div className="name-section">
@@ -24,7 +26,7 @@ const NameSection = () => {
               name="name"
               placeholder="First Name"
               value={name}
-              onChange={onChange}
+              onChange={applicantName}
             />
           </div>
           <div>
