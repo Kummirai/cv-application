@@ -15,10 +15,11 @@
   box-sizing: border-box;
 }
 
-.container{
+.container {
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
+  gap: 10px;
 }
