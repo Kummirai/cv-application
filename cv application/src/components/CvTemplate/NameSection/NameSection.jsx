@@ -3,7 +3,7 @@ import "./nameSection.css";
 const NameSection = () => {
   return (
     <div className="name-section">
-      <form>
+      <form id="myForm">
         <legend>
           <h2 className="sub-heading">Name Section</h2>
         </legend>

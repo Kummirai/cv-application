@@ -3,7 +3,7 @@ import "./briefSummary.css";
 const BriefSummary = () => {
   return (
     <div className="brief-summary">
-      <form>
+      <form id="myForm">
         <legend>
           <h2 className="sub-heading">Brief Summary</h2>
         </legend>
